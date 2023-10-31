@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking_appoinmentApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <h1>Book a Call</h1>
+                <h4>Book a call slot,our representative will call you back!!!</h4>
+                <label for="text">Name:</label><br>
+                <input type="text" id="name"><br>
+                <label for="text">Email:</label><br>
+                <input type="text" id="email"><br>
+                <label for="text">Phone:</label><br>
+                <input type="number" id="phone_no"><br>
+                <label for="text">Time for call:</label><br>
+                <input type="date" id="date"> 
+                <input type="time" id="time"><br>
+                <button class="btn" id="button">GET A CALL</button>
+
+            </fieldset>
+        </form>
+        <!-- Add a <div> to display user details -->
+        <div id="userDetailsDisplay"></div>
+        
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    
+</body>
+</html>
